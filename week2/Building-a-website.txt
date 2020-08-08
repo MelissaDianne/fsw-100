@@ -1,0 +1,38 @@
+<doctype! html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <div><h1>Pictures</h1>
+            <img src="https://artwoonz.com/digital-artist-aris-roth/"/>
+            <img src="https://www.inprnt.com/gallery/fresh_bobatae/covid-19-fundraiser-boba-1/"/>
+            <img src="https://i.pinimg.com/564x/76/95/97/76959714ed9122b38bdb36116a815bac.jpg"/>
+        </div>
+        <div><h2>Links</h2>
+            <a href="https://www.google.com">Google></a>
+            <a href="https://www.facebook.com"/>Facebook</a>
+            <a href="https://www.yelp.com"/>Yelp</a>
+        </div>
+        <div><h3>paragraph</h3>
+            <p>I like to play video games because they are fun. I like the cute ones and the scary one.</p>
+        </div>
+        <div><h4>Span</4>
+            <span>I also like to do hair because I can be creative and have fun with it.</span>
+        </div>
+        <div><h5>Oranized List</h5>
+            <ol>
+                <li1>One girl</li1>
+                <li2>Two sisters</li2>
+                <li3>Three dogs</li3>
+            </ol>
+        </div>
+        <div><h6>Unorganized List</h6>
+            <ul>
+                <li1>Anything kawaii</li1>
+                <li2>Spooky, halloween and horror</li2>
+                <li3>Gaming of all sorts</li3>
+            /<ul>
+        </div>
+        </body>
+</html>
