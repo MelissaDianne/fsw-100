@@ -1,2 +1,7 @@
-head {color:blue}
+h1 {color:blue}
+
+
+table, th, td, tr {
+    border: 3px solid black;
+}
 
