@@ -1,0 +1,142 @@
+.grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(5, 50px);
+}
+.grid2 {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(5, 50px);
+}
+
+#item-1 {
+    grid-column: 1/5;
+    background-color: #957dad
+}
+#item-2 {
+    grid-column: 1/5;
+    background-color: #d291bc
+}
+#item-3 {
+    grid-column: 1/5;
+    background-color: #e0bbe4
+}
+#item-4 { 
+    grid-column:1/5;
+    background-color: #acecd5
+}
+#item-5 {
+    grid-column: 1/5;
+    background-color: #fec8d8
+}
+#item-6 {
+    grid-column: 1/5;
+    background-color: #957dad
+}
+#item-7 {
+    grid-column: 1/5;
+    background-color: #d291bc
+}
+#item-8 {
+    grid-column: 1/5;
+    background-color: #e0bbe4
+}
+#item-9 { 
+    grid-column:1/5;
+    background-color: #acecd5
+}
+#item-10 {
+    grid-column: 1/5;
+    background-color: #fec8d8
+}
+
+
+/* tablet */
+
+@media only screen and (min-width: 600px) and (max-width: 1000px){
+    .grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(5, 50px);
+        }
+    .grid2{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(5, 50px);
+        }
+
+    #item-1 {
+    grid-column: 1/5;
+}
+    #item-2 {
+    grid-column: 1/2;
+}
+    #item-3 {
+    grid-column: 2/5;
+}
+    #item-4 {
+    grid-column: 1/5;
+}
+    #item-5 {
+    grid-column: 1/5;
+}
+    #item-6 {
+    grid-column: 1/5;
+}
+    #item-7 {
+    grid-column: 1/2;
+}
+    #item-8 {
+    grid-column: 2/5;
+}
+    #item-9 {
+    grid-column: 1/5;
+}
+    #item-10 {
+    grid-column: 1/5;
+}
+}
+
+/* laptop */
+
+@media only screen and (min-width: 1000px){
+    .grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(5, 50px);
+        }
+    .grid2{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(5, 50px);
+        }
+
+    #item-1 {
+    grid-column: 1/5;
+}
+    #item-2 {
+    grid-column: 1/2;
+}
+    #item-3 {
+    grid-column: 2/4;
+}
+    #item-4 {
+    grid-column: 4/5;
+}
+    #item-5 {
+    grid-column: 1/5;
+}
+    #item-6 {
+    grid-column: 1/5;
+}
+    #item-7 {
+    grid-column: 1/2;
+}
+    #item-8 {
+    grid-column: 2/4;
+}
+    #item-9 {
+    grid-column: 4/5;
+}
+    #item-10 {
+    grid-column: 1/5;
+}
+}
