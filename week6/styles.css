@@ -1,3 +1,7 @@
+<audio src="https://archive.org/download/ReclaimHtml5/ReclaimHtml5.mp3" 
+  type="audio/mpeg" 
+  controls>
+  
 #flex-container {
     display: flex;
     justify-content: space-around;
@@ -82,6 +86,6 @@
 
 .box6:hover {
     background-image: url(https://i.pinimg.com/564x/7d/84/20/7d8420608c88811b3f4aad2541fbbaf1.jpg);
-    background-size: 350px;
-    transform: rotateY(130deg);
+    font-size: 50px;
+    text-align: center;
 }
